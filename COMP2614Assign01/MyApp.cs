@@ -2,6 +2,10 @@
 
 namespace COMP2614Assign01
 {
+	/// <summary>
+	/// Main Application Starter.
+	/// Git Repository: https://github.com/kriss3/BCIT_WinAppDev_2614_COMP2614Assign01.git
+	/// </summary>
 	class MyApp
 	{
 		public const int MAX_VALUE = 20;
@@ -59,7 +63,7 @@ namespace COMP2614Assign01
 				Console.WriteLine($"{numberSum,10:N0} {squareSum,10:N0} {cubeSum,10:N0}");
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine();
-				Console.Write("Again? [Y/N]: ");
+				Console.Write("Would you like to try again? [Y/N]: ");
 				response = Console.ReadLine();
 				if (response.ToLower().Trim().Equals("y"))
 				{
