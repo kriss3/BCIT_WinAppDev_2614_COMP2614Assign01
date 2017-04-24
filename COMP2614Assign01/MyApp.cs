@@ -5,6 +5,8 @@ namespace COMP2614Assign01
 	/// <summary>
 	/// Main Application Starter.
 	/// Git Repository: https://github.com/kriss3/BCIT_WinAppDev_2614_COMP2614Assign01.git
+	/// Created by Krzysztof Szczurowski
+	/// Version: 1.1
 	/// </summary>
 	class MyApp
 	{
@@ -33,7 +35,7 @@ namespace COMP2614Assign01
 
 				if (!value)
 				{
-					Console.WriteLine($"The value: \"{response}\" is not a valid value, setting to the default value.");
+					Console.WriteLine($"The value: \"{response}\" is not a valid entry, setting to the default value.");
 					max = MAX_VALUE;
 				}
 				
